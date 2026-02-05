@@ -55,6 +55,19 @@ button:hover{
     width: 100%;
 }
 
+.margin-top-40{
+    margin-top: 40px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.on-hover-text-green:hover{
+    cursor: pointer;
+    color: #3F8A62;
+}
+
 h1{
     font-size: 40px;
     letter-spacing: -0.8px;
@@ -63,7 +76,7 @@ h1{
 h5{
     font-size: 12px;
     font-weight: 500;
-    color: green;
+    color: #3F8A62;
 }
 h2{
     font-size: 24px;
@@ -350,7 +363,7 @@ p{
 
 .enterprise-image img{
     border-radius: 25px;
-     transition: filter 0.3s ease;
+    transition: filter 0.3s ease;
 }
 .enterprise-image:hover img {
     filter: brightness(0.7);
@@ -382,6 +395,92 @@ p{
 }
 
 .enterprise-logos{
-    margin-top: 40px2;
+    margin-top: 40px;
     width: 900px;
 }
+
+/* ====================== customers ================== */
+
+#customers-section{
+    margin-top: 100px;
+}
+
+.customers-sec-top h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.customers-sec-carousel p{
+   padding-left: 8px;
+}
+
+.customers-sec-carousel img{
+    width: 420px;
+    height: 300px;
+}
+
+
+.customers-sec-carousel{
+    margin-top: 40px;
+    justify-content: center;
+    gap:15px;
+}
+
+/* ======================= final-cta ==================== */
+
+#final-cta{
+    margin-top: 140px;
+    justify-content: center;
+}
+
+.upper-texts .btn1{
+    background-color: #000000;
+    color: #ffffff;
+    width: 197px;
+    height: 39px;
+}
+.upper-texts h1{
+    line-height: 0.96;
+    font-weight: 600;
+}
+.upper-texts .btn2{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #00000015;
+    width: 137px;
+    height: 39px;
+}
+.upper-texts .btn2:hover{
+    background-color: #00000015;
+}
+
+.cta-grids{
+    /* width: 988px; */
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.cta-grids img{
+    height: 32px; width: 32px;
+}
+.cta-grids h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.cta-grids .cta-text{
+    color: #3F8A62;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.icon-holder{
+    height: 53px; width: 53px;
+    background-color: #FCFCFC;
+    border: 1px solid #00000018;
+    border-radius: 15px;
+}
+
+
+/* ============================= footer =========================== */
