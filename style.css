@@ -47,6 +47,35 @@ button:hover{
     align-items: center;
 }
 
+.make-flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    letter-spacing: -0.8px;
+    font-weight: 600;
+}
+h5{
+    font-size: 12px;
+    font-weight: 500;
+    color: green;
+}
+h2{
+    font-size: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+p{
+    font-size: 16px;
+    color: #3A3A3B;
+    line-height: 1.5;
+}
+
 /* css var for colors */
 
 /* ======================= nav bar ======================== */
@@ -142,6 +171,10 @@ button:hover{
 
 }
 
+.hero-long-cta p{
+    color: #ffffff;
+}
+
 .hero-long-cta button{
     background-color: #3F8A62;
     color: #ffffff;
@@ -235,27 +268,6 @@ button:hover{
 #build-for-intelligence-section{
     margin-top: 200px;
 }
-
-#build-for-intelligence-section h1{
-    font-size: 40px;
-    letter-spacing: -0.8px;
-    font-weight: 600;
-}
-#build-for-intelligence-section h2{
-    font-size: 24px;
-    letter-spacing: -0.2px;
-    font-weight: 500;
-}
-#build-for-intelligence-section h5{
-    font-size: 12px;
-    font-weight: 500;
-    color: green;
-}
-#build-for-intelligence-section p{
-    font-size: 16px;
-    color: #3A3A3B;
-}
-
 .b-for-i-sec-grids{
     margin-top: 48px;
     width: 1024px;
@@ -288,4 +300,88 @@ button:hover{
     grid-column: 1 / -1;
 }
 
-/* ====================== Enterprise-reinvention ================= */
+/* ====================== Enterprise-reinvention ================= */ 
+#enterprise-reinvention-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #F7F7F7;
+}
+
+.enterprise-top-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1024px;
+}
+
+.enterprise-top-content h1{
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.enterprise-top-content-grids img{
+    margin-top: 40px;
+    margin-bottom: 26px;
+    height: 32px;
+    width: 32px;
+    fill: green;
+}
+
+.enterprise-top-content button{
+    height: 39px;
+    width: 210px;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.enterprise-image {
+    margin-top: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.enterprise-image img{
+    border-radius: 25px;
+     transition: filter 0.3s ease;
+}
+.enterprise-image:hover img {
+    filter: brightness(0.7);
+}
+
+.enterprise-image-text-top {
+    color: #F7F7F7;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+.enterprise-image-text-bottom {
+    display: flex;
+    gap: 71px;
+    color: #F7F7F7;
+    position: absolute;
+    bottom: 70px;
+    left: 60px;
+}
+.enterprise-image p{
+    color: #c3c3c3;
+}
+.enterprise-image h1{
+    font-weight: 400;
+}
+.enterprise-image h2{
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.enterprise-logos{
+    margin-top: 40px2;
+    width: 900px;
+}
