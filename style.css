@@ -120,6 +120,7 @@ p{
 
 }
 
+
 .nav-actions button {
     background-color: transparent;
     color: #ffffff;
@@ -140,6 +141,11 @@ p{
 
 .start-button{
     border: 2px solid #00000083;
+}
+
+.nav-child h3{
+    color: black;
+     mix-blend-mode: difference;
 }
 
 
@@ -298,6 +304,17 @@ p{
     border-radius: 20px;
     padding-left: 25px;
     padding-top: 25px;
+}
+
+.b-for-i-sec-grids .left img{
+    margin-top: 40px;
+}
+
+.b-for-i-sec-grids .right img{
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 15px;
 }
 
 .b-for-i-sec-grids-bottom{
@@ -484,3 +501,87 @@ p{
 
 
 /* ============================= footer =========================== */
+footer{
+    margin-top: 100px;
+}
+.footer-top{
+    border-top: 1.55px solid #00000015;
+}
+.footer-top .logo img{
+    width: 120px;
+}
+.footer-top .content{
+    width: 1020px;
+    justify-content: space-between;
+    border-left: 1.55px solid #00000015;
+    border-right: 1.55px solid #00000015;
+    padding: 64px 32px 24px;
+}
+.footer-top .socials{
+    width: 90px;
+}
+.footer-top .socials img{
+    height: 20px; width: 20px;
+}
+
+.footer-links .content{
+    width: 1020px;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1.55px solid #00000015;
+    padding: 48px 32px 72px;
+
+}
+
+.footer-links .content .column{
+    align-items: flex-start;
+}
+
+.footer-links .content .column button:hover{
+    background-color: #00000008;
+}
+
+.footer-links .content .column .heading{
+    color: #0a0a0a3c;
+    cursor: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.footer-links .content .column .heading:hover{
+    background-color: #ffffff;
+}
+
+.footer-security .content{
+    width: 1020px;
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    border-left: 1.55px solid #00000015;
+    border-right: 1.55px solid #00000015;
+} 
+
+.footer-security .content img{
+    height: 72px; width: 72px;
+    margin-left: 18px;
+}
+
+.footer-copyright .content{
+    width: 1020px;
+    padding: 32px 32px 96px;
+    align-items: center;
+    border: 1.55px solid #00000015;
+} 
+
+.footer-copyright .content .indicator{
+    background-color: #0000000d;
+    height: 29px;
+    width: 200px;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.footer-copyright .content .themes img{
+    border-radius: 22px;
+    cursor: pointer;
+}
