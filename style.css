@@ -105,7 +105,8 @@ p{
     top: 0;
     left: 0;
     width: 100%; 
-    background: rgba(255, 255, 255, 0.038);
+    /* background: rgba(255, 255, 255, 0.038); */
+    background: transparent;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
@@ -144,8 +145,11 @@ p{
 }
 
 .nav-child h3{
-    color: black;
-     mix-blend-mode: difference;
+    font-size: 22px;
+    font-weight: 600;
+    mix-blend-mode: difference;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.516);
+    color: white;
 }
 
 
@@ -441,6 +445,21 @@ p{
     justify-content: center;
     gap:15px;
 }
+
+#customers-section .arrows{
+    margin-top: 50px;
+    width: 60px;
+    align-items: center;
+}
+
+#customers-section .circle{
+    height: 25px; width: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    padding-left: 6px;
+    cursor: pointer;
+} 
 
 /* ======================= final-cta ==================== */
 
